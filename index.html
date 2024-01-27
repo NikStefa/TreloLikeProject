@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Platform</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="bg-primary p-3 text-center">
+    <h1 class="">Πλατφορμα Διαχείρισης Εργασιών</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Αρχική</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="lista_ergasiwn.html">Λίστα Εργασιών</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="omades.html" >Ομάδες</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+            <a href="login_form.html" class="btn btn-outline-primary " tabindex="-1" role="button" aria-disabled="true">Login</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- Content goes here -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center pt-5 pb-3">
+            <h3>Καλωςορίσατε στην Πλατφόρμα Διαχείρισης Εργασιών</h3>
+        </div>
+        <div class="col-12 text-center">
+            <h4>Ενα ευγενικό και φιλόξενο μήνυμα που υποδέχεται τους χρήστες κατά την είσοδό τους στην πλατφόρμα</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row p-5">
+            <div class="col-6 border">
+                Image 1
+                <img src="..." class="img-fluid" alt="...">
+            </div>
+            <div class="col-6 border">
+                Image 2 
+                <img src="..." class="img-fluid" alt="...">
+            </div>
+            <div class="row justify-content-center m-5">
+                <div class="col-2 ">
+                    <a href="login_form.html" class="btn btn-success " tabindex="-1" role="button" aria-disabled="true">Είσοδος</a>
+                </div>
+                <div class="col-2 ">
+                    <a href="register.html" class="btn btn-success " tabindex="-1" role="button" aria-disabled="true">Εγγραφή </a>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="text-white bg-dark p-3 text-center fixed-bottom">
+    <a href="terms.pdf" target="_blank">Terms of Use</a>
+    <a href="privacy.pdf" target="_blank">Privacy Policy</a>
+</footer>
+
+<!-- Add Bootstrap JS and Popper.js scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
